@@ -27,6 +27,6 @@ make
 
 ## Warning
 
-For PCL 1.8.1, the build will failed!
+<del>For PCL 1.8.1, the build will failed!</del>
 
 Only Mac OS and Linux have been tested!
