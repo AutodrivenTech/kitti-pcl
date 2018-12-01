@@ -1,6 +1,6 @@
 ADD_EXECUTABLE(kitti2pcd kitti2pcd.cpp)
-TARGET_LINK_LIBRARIES(kitti2pcd ${Boost_LIBRARIES} ${PCL_LIBRARIES})
-
+#TARGET_LINK_LIBRARIES(kitti2pcd ${Boost_LIBRARIES} ${PCL_LIBRARIES})
+TARGET_LINK_LIBRARIES(kitti2pcd  ${PCL_LIBRARIES})
 #ADD_EXECUTABLE(kittitrackletextract kittitrackletextract.cpp ${CMAKE_SOURCE_DIR}/include/tracklets.h)
 #TARGET_LINK_LIBRARIES(kittitrackletextract ${Boost_LIBRARIES} ${PCL_LIBRARIES})
 
