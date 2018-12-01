@@ -23,7 +23,7 @@ using namespace std;
 namespace po = boost::program_options;
 
 int main(int argc, char **argv){
-	if(argc != 3){
+	if(argc != 5){
 		cout << "You need to use follow args:" << endl;
 		cout << "--infile" << "\t" << "the file to read a point cloud from" << endl;
 		cout << "--outfile" << "\t" << "the file to write the DoN point cloud & normals to" << endl;
