@@ -22,7 +22,10 @@ make
 ## Usage
 
 ```
-./kitti2pcd --infile <path to kitti binary file> --out <path to pcd file>
+./kitti2pcd --infile <path to kitti binary file> --outfile <path to pcd file>
+OR
+./kitti2pcd --indir <path to kitti binary dir> --outdir <path to pcd dir>
+
 ```
 
 ## Warning
