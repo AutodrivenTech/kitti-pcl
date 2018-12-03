@@ -26,7 +26,7 @@ using namespace std;
 
 
 void kitti2pcd(string infile, string outfile){
-    fstream input(infile, ios::in | ios::binary);
+    fstream input(infile.c_str(), ios::in | ios::binary);
     if(!input.good()){
         cerr << "Could not read file: " << infile << endl;
         exit(EXIT_FAILURE);
@@ -49,7 +49,7 @@ void kitti2pcd(string infile, string outfile){
     pcl::PCDWriter writer;
 
     // Save DoN features
-    writer.write<PointXYZI> (outfile, *points, false);
+    writer.write<PointXYZI> (outfile.c_str(), *points, false);
 }
 
 
